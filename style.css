@@ -131,3 +131,13 @@ small{
     font-size: 25px;
     color: black;
 }
+.quick-links ul li p{
+   margin-top: 15px;
+   font-size: 10px;
+   color: black;
+}
+.social-icons{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
