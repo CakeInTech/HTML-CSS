@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
+}
+body{
     background: #F4DEFF;
 }
 .container{
@@ -15,11 +18,13 @@
 
 }
 
+
 .menu ul li{
+    font-size: 30px;
     list-style: none;
     margin: 0 30px;
     margin-top: 20px;
-    color: #b2b1b1;
+    color: #b7acd8;
     
 }
 .logo img{
@@ -35,13 +40,18 @@
     right: 80px;
     position: absolute;
     text-decoration: none;
-    color: black;
+    color: #b7acd8;
     border: 2px solid transparent;
-    border-radius: 0px;
-    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left,#6CF9E2 , #B54EBD) ;
+    border-radius:20px;
+    background-image: linear-gradient(#FDFF79,#FDFF79);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
+}
+span:hover{
+    background-image: linear-gradient(#42455a,#42455a);
+    border: 2px solid transparent;
+    border-radius:20px;
 }
 .signup span{
     display: block;
@@ -88,21 +98,23 @@
     margin-left: 40px;
     display: inline-flex;
 }
-.pay-btn-inner{
+.play-btn-inner{
+    text-align: center;
     height: 50px;
     width: 50px;
     border: 2px solid transparent;
     border-radius: 50%;
-    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left,#6CF9E2 , #B54EBD) ;
+    background-image: linear-gradient(#F4DEFF,#F4DEFF), radial-gradient(circle at top left,#6CF9E2 , #B54EBD) ;
     background-origin: border-box;
     background-clip: content-box, border-box;
 
 }
 .play-btn-inner .fa{
-    padding: 18px 0;
-    font-size: 13px;
-    cursor: pointer;
     text-align: center;
+    padding: 18px 0;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
 small{
     margin: auto 20px;
@@ -115,7 +127,7 @@ small{
     left: 0; 
     bottom: 0;
     position: absolute;
-    background: linear-gradient(to right,#6CF9E2,#B54EBD);
+    background: linear-gradient(to right,#FDFF79,#FDFF79);
 }
 .quick-links ul{
     display: inline-flex;
@@ -129,12 +141,12 @@ small{
 }
 .quick-links ul li .fa{
     font-size: 25px;
-    color: black;
+    color: #b7acd8;
 }
 .quick-links ul li p{
    margin-top: 15px;
    font-size: 10px;
-   color: black;
+   color: #b7acd8;
 }
 .social-icons{
     right: 72px;
@@ -150,6 +162,6 @@ small{
     color:#999;
     border-radius: 50%;
     border: 1px solid #999;
-    padding: 5px;
+    padding: 15px;
     display: block;
 }
